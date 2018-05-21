@@ -28,7 +28,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         $(PRIVATE_HIDL) -o $(PRIVATE_OUTPUT_DIR) \
         -Ljava \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor.lineage:hardware/lineage/interfaces \
+        -rvendor.lineage:hardware/aosp/interfaces \
         vendor.lineage.livedisplay@1.0::types.DisplayMode
 
 $(GEN): $(LOCAL_PATH)/types.hal
@@ -47,7 +47,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         $(PRIVATE_HIDL) -o $(PRIVATE_OUTPUT_DIR) \
         -Ljava \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor.lineage:hardware/lineage/interfaces \
+        -rvendor.lineage:hardware/aosp/interfaces \
         vendor.lineage.livedisplay@1.0::types.Feature
 
 $(GEN): $(LOCAL_PATH)/types.hal
@@ -66,7 +66,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         $(PRIVATE_HIDL) -o $(PRIVATE_OUTPUT_DIR) \
         -Ljava \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor.lineage:hardware/lineage/interfaces \
+        -rvendor.lineage:hardware/aosp/interfaces \
         vendor.lineage.livedisplay@1.0::types.FloatRange
 
 $(GEN): $(LOCAL_PATH)/types.hal
@@ -85,7 +85,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         $(PRIVATE_HIDL) -o $(PRIVATE_OUTPUT_DIR) \
         -Ljava \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor.lineage:hardware/lineage/interfaces \
+        -rvendor.lineage:hardware/aosp/interfaces \
         vendor.lineage.livedisplay@1.0::types.HSIC
 
 $(GEN): $(LOCAL_PATH)/types.hal
@@ -104,7 +104,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         $(PRIVATE_HIDL) -o $(PRIVATE_OUTPUT_DIR) \
         -Ljava \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor.lineage:hardware/lineage/interfaces \
+        -rvendor.lineage:hardware/aosp/interfaces \
         vendor.lineage.livedisplay@1.0::types.Range
 
 $(GEN): $(LOCAL_PATH)/types.hal
@@ -125,7 +125,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         $(PRIVATE_HIDL) -o $(PRIVATE_OUTPUT_DIR) \
         -Ljava \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor.lineage:hardware/lineage/interfaces \
+        -rvendor.lineage:hardware/aosp/interfaces \
         vendor.lineage.livedisplay@1.0::IColor
 
 $(GEN): $(LOCAL_PATH)/IColor.hal
@@ -160,7 +160,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         $(PRIVATE_HIDL) -o $(PRIVATE_OUTPUT_DIR) \
         -Ljava \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor.lineage:hardware/lineage/interfaces \
+        -rvendor.lineage:hardware/aosp/interfaces \
         vendor.lineage.livedisplay@1.0::types.DisplayMode
 
 $(GEN): $(LOCAL_PATH)/types.hal
@@ -179,7 +179,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         $(PRIVATE_HIDL) -o $(PRIVATE_OUTPUT_DIR) \
         -Ljava \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor.lineage:hardware/lineage/interfaces \
+        -rvendor.lineage:hardware/aosp/interfaces \
         vendor.lineage.livedisplay@1.0::types.Feature
 
 $(GEN): $(LOCAL_PATH)/types.hal
@@ -198,7 +198,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         $(PRIVATE_HIDL) -o $(PRIVATE_OUTPUT_DIR) \
         -Ljava \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor.lineage:hardware/lineage/interfaces \
+        -rvendor.lineage:hardware/aosp/interfaces \
         vendor.lineage.livedisplay@1.0::types.FloatRange
 
 $(GEN): $(LOCAL_PATH)/types.hal
@@ -217,7 +217,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         $(PRIVATE_HIDL) -o $(PRIVATE_OUTPUT_DIR) \
         -Ljava \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor.lineage:hardware/lineage/interfaces \
+        -rvendor.lineage:hardware/aosp/interfaces \
         vendor.lineage.livedisplay@1.0::types.HSIC
 
 $(GEN): $(LOCAL_PATH)/types.hal
@@ -236,7 +236,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         $(PRIVATE_HIDL) -o $(PRIVATE_OUTPUT_DIR) \
         -Ljava \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor.lineage:hardware/lineage/interfaces \
+        -rvendor.lineage:hardware/aosp/interfaces \
         vendor.lineage.livedisplay@1.0::types.Range
 
 $(GEN): $(LOCAL_PATH)/types.hal
@@ -257,7 +257,7 @@ $(GEN): PRIVATE_CUSTOM_TOOL = \
         $(PRIVATE_HIDL) -o $(PRIVATE_OUTPUT_DIR) \
         -Ljava \
         -randroid.hidl:system/libhidl/transport \
-        -rvendor.lineage:hardware/lineage/interfaces \
+        -rvendor.lineage:hardware/aosp/interfaces \
         vendor.lineage.livedisplay@1.0::IColor
 
 $(GEN): $(LOCAL_PATH)/IColor.hal
